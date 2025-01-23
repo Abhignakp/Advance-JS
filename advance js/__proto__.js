@@ -9,10 +9,10 @@ const parent = {
     childProperty: "This is from the child",
   };
   
-  child.__proto__ = parent; // Setting up inheritance manually
+  child.__proto__ = parent; 
   
-  console.log(child.parentProperty); // Output: This is from the parent
-  child.greet(); // Output: Hello, I am a parent.
+  console.log(child.parentProperty); 
+  child.greet(); 
   
-  console.log(Object.getPrototypeOf(child) === parent); // Output: true
+  console.log(Object.getPrototypeOf(child) === parent); 
   
