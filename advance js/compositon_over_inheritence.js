@@ -20,6 +20,6 @@ function canWalk(obj) {
   }
   
   const john = person("John");
-  john.walk(); // Output: John is walking
-  john.swim(); // Output: John is swimming
+  john.walk(); 
+  john.swim(); 
   
