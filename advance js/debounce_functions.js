@@ -10,5 +10,5 @@ function debounce(func, delay) {
     console.log(`Searching for: ${query}`);
   }, 500);
   
-  search("JavaScript"); // Executes after 500ms
+  search("JavaScript");
   
