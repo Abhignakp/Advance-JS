@@ -8,7 +8,7 @@ function multiply(a) {
   
   console.log(multiply(2)(3)(4)); // Output: 24
   
-  // Practical Example - Logging with a prefix
+
   function logger(prefix) {
     return function (message) {
       console.log(`[${prefix}] ${message}`);
@@ -16,5 +16,5 @@ function multiply(a) {
   }
   
   const errorLogger = logger("ERROR");
-  errorLogger("Something went wrong"); // [ERROR] Something went wrong
+  errorLogger("Something went wrong"); 
   
