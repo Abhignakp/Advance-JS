@@ -15,5 +15,5 @@ function memoize(fn) {
   });
   
   console.log(expensiveCalculation(5)); // Output: Calculating... 10
-  console.log(expensiveCalculation(5)); // Output: 10 (cached)
+  console.log(expensiveCalculation(5)); // Output: 10
   
