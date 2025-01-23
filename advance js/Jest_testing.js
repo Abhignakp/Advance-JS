@@ -1,11 +1,11 @@
-// add.js
+
 function add(a, b) {
     return a + b;
   }
   
   module.exports = add;
   
-  // add.test.js
+
   const add = require("./add");
   
   test("adds 1 + 2 to equal 3", () => {
