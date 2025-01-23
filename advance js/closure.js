@@ -9,7 +9,7 @@ function outerFunction(outerVariable) {
   const closureExample = outerFunction("Closure Example");
   closureExample("Demonstration"); // Outer Variable: Closure Example, Inner Variable: Demonstration
   
-  // Closure in practice - Counter Example
+
   function createCounter() {
     let count = 0;
     return function () {
